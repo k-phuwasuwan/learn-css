@@ -5,11 +5,9 @@
 }
 
 .external {
-    border: 1px solid;
-}
-
-.box {
-    outline: 50px solid darkblue;
+    border: 1px solid white;
+    color: orange;
+    background-color: blueviolet;
 }
 
 .margin-box {
