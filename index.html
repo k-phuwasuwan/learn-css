@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- external -->
     <link rel="stylesheet" href="style.css">
+    <!-- internal -->
+    <style>
+        .inline {
+            background-color: blueviolet;
 
-        <style>
-            .title {
-                background-color: blueviolet;
-                
-            }
-        </style>
+        }
+    </style>
 </head>
+
 <body>
     <!-- inline -->
     <h1 style="color: chocolate;">this is inline</h1>
 
-    <!-- internal -->
-    <h1 class="title">this is internal</h1>
+    <h1 class="inline">this is internal</h1>
+    <h1 class="external">this is external</h1>
+    <br>
+    <div class="margin-box">
+        <span class="lable">margin</span>
+        <div class="border-box">
+            <span class="lable">border</span>
+            <div class="padding-box">
+                <span class="lable">padding</span>
+                <div class="content-box">
+                    content
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
