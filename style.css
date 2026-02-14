@@ -107,3 +107,13 @@ h1 {
     color: rgba(255, 0, 0, 1);
 }
 
+.size-box {
+    margin: 20px auto;
+    text-align: center;
+}
+.size-100px {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
