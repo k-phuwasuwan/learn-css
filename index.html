@@ -1,155 +1,203 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- external -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- internal -->
     <style>
-        .inline {
-            background-color: blueviolet;
-
-        }
+      .inline {
+        background-color: blueviolet;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- inline -->
-    <h1 style="color: chocolate;">this is inline</h1>
+    <h1 style="color: chocolate">this is inline</h1>
 
     <h1 class="inline">this is internal</h1>
     <h1 class="external">this is external</h1>
 
-    <br><hr><br>
+    <br />
+    <hr />
+    <br />
 
     <div class="margin-box">
-        <span class="lable">margin</span>
-        <div class="border-box">
-            <span class="lable">border</span>
-            <div class="padding-box">
-                <span class="lable">padding</span>
-                <div class="content-box">
-                    content
-                </div>
-            </div>
+      <span class="lable">margin</span>
+      <div class="border-box">
+        <span class="lable">border</span>
+        <div class="padding-box">
+          <span class="lable">padding</span>
+          <div class="content-box">content</div>
         </div>
+      </div>
     </div>
 
-    <br><hr><br>
+    <br />
+    <hr />
+    <br />
 
     <!-- Selector -->
     <article>
-        <p>I want to be red and larger than the other text.</p>
-        <p>I want to be normal sized and the default color.</p>
+      <p>I want to be red and larger than the other text.</p>
+      <p>I want to be normal sized and the default color.</p>
     </article>
 
-    <br><hr><br>
+    <br />
+    <hr />
+    <br />
 
     <!-- The cascade -->
     <button>Hello, I have blue text</button>
 
     <h1 class="my-element">Heading</h1>
 
-    <br><hr><br>
+    <br />
+    <hr />
+    <br />
 
     <!-- Specificity -->
-     <p id="myId" class="myClass">id < class > tag</p>
-     
-     <br><hr><br>
-     
-     <!-- Inheritance -->
+    <p id="myId" class="myClass">id < class > tag</p>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- Inheritance -->
     <a href="#" class="my-button">I am a button link</a>
-    
-    <br><hr><br>
+
+    <br />
+    <hr />
+    <br />
 
     <!-- Color -->
-     <button class="named-colors">This is named colors</button>
-     <button class="numeric-colors">This is Numeric colors (HEX , HEX Codes With Alpha)</button>
-     <button class="rgba-colors">This is RGBA colors</button>
+    <button class="named-colors">This is named colors</button>
+    <button class="numeric-colors">
+      This is Numeric colors (HEX , HEX Codes With Alpha)
+    </button>
+    <button class="rgba-colors">This is RGBA colors</button>
 
-    <br><hr><br>
+    <br />
+    <hr />
+    <br />
 
     <!-- Sizing Units -->
     <div class="size-box">
-        <p>Size: 100px</p>
-        <div class="size-100px"></div>
+      <p>Size: 100px</p>
+      <div class="size-100px"></div>
     </div>
 
-    <br>
-    <hr><br>
+    <br />
+    <hr />
+    <br />
 
     <!-- Lay out -->
     <div class="layout-box">
-        <div class="block">Block</div>
-        <div class="inline-block">Inline-Block</div>
-        <div class="inline">Inline</div>
+      <div class="block">Block</div>
+      <div class="inline-block">Inline-Block</div>
+      <div class="inline">Inline</div>
     </div>
-    <br>
+    <br />
 
     <div class="flex-box">
-        <div>I am sat next to a sibling element.</div><br>
-        <div>If the writing direction is horizontal.</div>
-    </div><br>
+      <div>I am sat next to a sibling element.</div>
+      <br />
+      <div>If the writing direction is horizontal.</div>
+    </div>
+    <br />
 
     <div class="my-grid">
-        <div class="box">Item 1</div>
-        <div class="box">Item 2</div>
-        <div class="box">Item 3</div>
-        <div class="box">Item 4</div>
-        <div class="box">Item 5</div>
-        <div class="box">Item 6</div>
-        <div class="box">Item 7</div>
-        <div class="box">Item 8</div>
-    </div><br>
+      <div class="box">Item 1</div>
+      <div class="box">Item 2</div>
+      <div class="box">Item 3</div>
+      <div class="box">Item 4</div>
+      <div class="box">Item 5</div>
+      <div class="box">Item 6</div>
+      <div class="box">Item 7</div>
+      <div class="box">Item 8</div>
+    </div>
+    <br />
 
     <ul class="countries">
-        <li>Afghanistan</li>
-        <li>Aland Islands</li>
-        <li>Albania</li>
-        <li>Algeria</li>
-        <li>American Samoa</li>
-        <li>Andorra</li>
-        <li>Angola</li>
-        <li>Anguilla</li>
-        <li>Antarctica</li>
-        <li>Antigua and Barbuda</li>
-        <li>Argentina</li>
-        <li>Armenia</li>
-        <li>Aruba</li>
-        <li>Australia</li>
-        <li>Austria</li>
-        <li>Azerbaijan</li>
-        <li>Bahamas</li>
-        <li>Bahrain</li>
-        <li>Bangladesh</li>
-        <li>Barbados</li>
-        <li>Belarus</li>
-        <li>Belgium</li>
-        <li>Belize</li>
-        <li>Benin</li>
-        <li>Bermuda</li>
-    </ul><br>
+      <li>Afghanistan</li>
+      <li>Aland Islands</li>
+      <li>Albania</li>
+      <li>Algeria</li>
+      <li>American Samoa</li>
+      <li>Andorra</li>
+      <li>Angola</li>
+      <li>Anguilla</li>
+      <li>Antarctica</li>
+      <li>Antigua and Barbuda</li>
+      <li>Argentina</li>
+      <li>Armenia</li>
+      <li>Aruba</li>
+      <li>Australia</li>
+      <li>Austria</li>
+      <li>Azerbaijan</li>
+      <li>Bahamas</li>
+      <li>Bahrain</li>
+      <li>Bangladesh</li>
+      <li>Barbados</li>
+      <li>Belarus</li>
+      <li>Belgium</li>
+      <li>Belize</li>
+      <li>Benin</li>
+      <li>Bermuda</li>
+    </ul>
+    <br />
 
-    <br><hr><br>
+    <br />
+    <hr />
+    <br />
 
     <!-- Logical Properties -->
-        <div class="logical-box">
-            <div class="logical-item">Item 1</div>
-            <div class="logical-item">Item 2</div>
-            <div class="logical-item">Item 3</div> 
-        </div>
-        <!--
+    <div class="logical-box">
+      <div class="logical-item">Item 1</div>
+      <div class="logical-item">Item 2</div>
+      <div class="logical-item">Item 3</div>
+    </div>
+    <!--
              |
              | 
              | block flow
              ___ inline flow
         -->
 
-        
+    <br />
+    <hr />
+    <br />
+
+    <!-- Spacing -->
+    <div class="my-spacing">This is Spacing</div>
+
+    <br />
+    <hr />
+    <br />
+
+    
 
 
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
 </html>

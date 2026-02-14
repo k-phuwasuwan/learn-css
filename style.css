@@ -150,3 +150,9 @@ h1 {
     column-count: 2;
     column-gap: 1em;
 }
+
+.my-spacing {
+    margin: 20px;
+    padding: 10px;
+    background-color: lightcoral;
+}
