@@ -95,3 +95,15 @@ h1 {
     text-align: center;
 }
 
+.named-colors {
+    color: red;
+}
+
+.numeric-colors {
+    color: #ff0000;
+}
+
+.rgba-colors {
+    color: rgba(255, 0, 0, 1);
+}
+
