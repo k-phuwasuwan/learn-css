@@ -66,6 +66,21 @@ span {
 }
 
 article p:first-of-type {
-    color: red;
+    color: red; /* declaration */
+    /* property  */ /* value */
     font-size: 1.5em;
+}
+
+button {
+    color: blue;
+    background-color: lightsalmon;
+}
+
+.my-element {
+    color: red;
+}
+
+/* ตรงนี้จะไม่แสดงผล เพราะ ข้างบนมีน้ำหนักมากกว่า*/
+h1 {
+    color: blue;
 }
