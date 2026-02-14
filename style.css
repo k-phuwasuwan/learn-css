@@ -117,3 +117,36 @@ h1 {
     background-color: lightblue;
 }
 
+.block {
+    background-color: lightgreen;
+    display: block;
+}
+
+.inline-block {
+    background-color: lightgreen;
+    display: inline-block;
+}
+
+.inline {
+    background-color: lightgreen;
+    display: flex;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.my-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+.countries {
+    column-count: 2;
+    column-gap: 1em;
+}
